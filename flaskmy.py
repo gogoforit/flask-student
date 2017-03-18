@@ -59,12 +59,11 @@ def sign():
     User.sign(username)
 
     return render_template('aftersign.html')
-@app.route('/my')
-def my():
+
+
+@app.route('/css')
+def css():
     return 'hello'
-
-
-
 
 
 @app.route('/newregister')
