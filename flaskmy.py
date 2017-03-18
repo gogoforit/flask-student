@@ -61,9 +61,7 @@ def sign():
     return render_template('aftersign.html')
 
 
-@app.route('/css')
-def css():
-    return 'hello'
+
 
 
 @app.route('/newregister')
